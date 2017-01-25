@@ -64,18 +64,27 @@
 //red cat pink cat
 
 
-for(var i=0; i<5; i++){
-console.log("i", i);
+//for(var i=0; i<5; i++){
+//console.log("i", i);
 
+//}
+//var fruit = ["cherries", "apples", "bananas"];
+
+//for(var j=0; j<fruit.length; j++){
+//	console.log("fruit", fruit[j]);
+//}
+
+// write a for loop that increments by 10 each time = 10 10 20 30 40 50 .....100
+//for (var k=0 k<101; k+10){
+//	console.log("k",k);
+
+
+//for loop that pushes the index to an array for 5 times  console.log  (array)\\[0,1,2,]
+// for loop that starts at 100 and divids by 2 each time 3 times = 100,50,25
+
+for(var i=0; i<100; i=i+10){//i=i+10
+	console.log("i", i);
 }
-var fruitString = ["cherries", "apples", "bananas"];
-
-for(var j=0; j<fruit.length; j++){
-	console.log("fruit", fruit[j]);
-}
-
-
-
 
 
 
