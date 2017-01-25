@@ -21,51 +21,58 @@
 //		console.log("not monday");
 //	}
 
-var fruit = ["cherries", "apples", "bananas"];
-var fruitString = fruit.join(" cats");
-console.log("fruitString", fruitString);
+//var fruit = ["cherries", "apples", "bananas"];
+//var fruitString = fruit.join(" cats");
+//console.log("fruitString", fruitString);
 
-var catColors = 'green,red,yellow,black';
-var catColorsArray = catColors.split("'");
-console.log("catColorsArray", catColorsArray);
+//var catColors = 'green,red,yellow,black';
+//var catColorsArray = catColors.split("'");
+//console.log("catColorsArray", catColorsArray);
 
-var reverseFruit = fruit.reverse();
-console.log("reverseFruit", reverseFruit);
+//var reverseFruit = fruit.reverse();
+//console.log("reverseFruit", reverseFruit);
 
-var alphaFruit = fruit.sort();
-console.log("alphaFruit", alphaFruit);
+//var alphaFruit = fruit.sort();
+//console.log("alphaFruit", alphaFruit);
 
-var nums =[9,6,8,2,11,66];
-var numSort = nums.sort(
-	function(a,b){
-		return a-b;
-	}
-	);
+//var nums =[9,6,8,2,11,66];
+//var numSort = nums.sort(
+//	function(a,b){
+//		return a-b;
+//	}
+//	);
 
-console.log("numSort", numSort);
+//console.log("numSort", numSort);
 
-var mixedCrap = ["r", "m", 33, 9];
-console.log("????",mixedCrap.sort());
+//var mixedCrap = ["r", "m", 33, 9];
+//console.log("????",mixedCrap.sort());
 
-var animals = ["cats", "turtles", "fish", "bears", "tigers"];
-console.log("bananas index", animals.indexOf("fish"));
+//var animals = ["cats", "turtles", "fish", "bears", "tigers"];
+//console.log("bananas index", animals.indexOf("fish"));
 
-var animals2 = animals.slice(2,4);
-console.log("animals2", animals2);
+//var animals2 = animals.slice(2,4);
+//console.log("animals2", animals2);
 
-animals.splice(1, 1);
-console.log("no turtles", animals);
+//animals.splice(1, 1);
+//console.log("no turtles", animals);
 
 
-var colors = ["red", "blue", "gold", "pink", "orange"];
+//var colors = ["red", "blue", "gold", "pink", "orange"];
 //sort, reverse make it a string
-var finalAnswer = colors.sort().reverse().join(" cat ");
-console.log ("finalAnswer", finalAnswer);
-//red cat pi
+//var finalAnswer = colors.sort().reverse().join(" cat ");
+//console.log ("finalAnswer", finalAnswer);
+//red cat pink cat
 
 
+for(var i=0; i<5; i++){
+console.log("i", i);
 
+}
+var fruitString = ["cherries", "apples", "bananas"];
 
+for(var j=0; j<fruit.length; j++){
+	console.log("fruit", fruit[j]);
+}
 
 
 
